@@ -1,0 +1,60 @@
+# Ethics Gate CI/CD — Gate 5 dağıtım eşik kontrolü
+# Kaynak: Ömer Uygun, Sorumlu Yapay Zeka (v6 prototip)
+# Beklenen sonuç: DPD/EOD > 0.10 → job FAIL (dağıtım engeli)
+
+name: Ethics Gate — Fairness & Deployment Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ethics-gate:
+    name: Run Ethics Gate (Gate 3–5 PoC)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run unified Ethics Gate pipeline
+        id: gate
+        run: |
+          set +e
+          python compas_ethics_gate.py
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          if [ -f fairness_results.json ]; then
+            echo "=== fairness_results.json ==="
+            cat fairness_results.json
+          fi
+          exit $code
+        # Exit code 1 = Gate 5 BLOCKED (thresholds exceeded). Bu başarısızlık kanıtıdır.
+
+      - name: Upload ethics-gate artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ethics-gate-report
+          path: |
+            fairness_results.json
+            run_artifacts/
+            DATA_PROVENANCE.md
+
+      - name: Gate 5 — deployment blocked notice
+        if: failure() && steps.gate.outcome == 'failure'
+        run: |
+          echo "::error title=Ethics Gate FAILED::Önceden tanımlı deneysel adalet eşiği (0.10) aşıldı; dağıtım engellendi."
+          echo "::error::İnceleme: fairness_results.json ve run_artifacts/"
+          exit 1
