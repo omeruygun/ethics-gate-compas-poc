@@ -1,0 +1,8 @@
+id,database,query,notes
+1,Scopus (TITLE-ABS-KEY),"(TITLE-ABS-KEY(""responsible AI"" OR ""ethical AI"" OR ""AI ethics"" OR ""algorithmic fairness"") AND TITLE-ABS-KEY(""software engineering"" OR ""SDLC"" OR ""MLOps"" OR ""machine learning lifecycle"" OR ""CI/CD"")) AND PUBYEAR > 2018","Alan kodu: COMP, ENGI"
+2,Web of Science,"TS=(""responsible AI"" OR ""ethical AI"" OR ""AI ethics"" OR ""algorithmic fairness"") AND TS=(""software engineering"" OR ""SDLC"" OR ""MLOps"" OR ""machine learning lifecycle"" OR ""CI/CD"")",Yıl filtresi: 2019–2026
+3,IEEE Xplore,"(""responsible AI"" OR ""ethical AI"" OR ""AI ethics"" OR ""algorithmic fairness"") AND (""software engineering"" OR ""SDLC"" OR ""MLOps"" OR ""CI/CD"")","Filtre: Computer Science, Full Text"
+4,ACM Digital Library,"[[All: ""responsible ai""] OR [All: ""ethical ai""] OR [All: ""algorithmic fairness""]] AND [[All: ""software engineering""] OR [All: ""sdlc""] OR [All: ""mlops""] OR [All: ""ci/cd""]]",ACM Guide dahil
+5,SpringerLink,"""responsible AI"" OR ""ethical AI"" AND ""software engineering"" OR ""SDLC"" OR ""MLOps""",Bilgisayar Bilimi kategorisi
+6,ScienceDirect,"title-abstr-key(""responsible AI"" OR ""ethical AI"") AND title-abstr-key(""software engineering"" OR ""MLOps"" OR ""CI/CD"")",Journal Articles ve Conference Papers
+7,"arXiv (cs.AI, cs.SE)",(responsible AI OR ethical AI OR algorithmic fairness) AND (software engineering OR SDLC OR MLOps OR CI/CD),"cs.AI + cs.SE kategorileri, 2019+"

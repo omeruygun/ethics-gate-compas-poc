@@ -1,0 +1,8 @@
+Tablo 9. COMPAS Prototip — Grup Bazlı Adalet Metrikleri ve Gate 5 Kararı (Gerçek COMPAS, aynı run)
+AA selection_rate=0.4948
+CAU selection_rate=0.2372
+selection_rate farkı (AA-CAU)=0.2576
+DPD (Fairlearn, tüm gruplar)=0.2857
+EOD (Fairlearn, tüm gruplar)=0.2945
+Gate 5 eşiği=0.1 (deneysel operasyonel)
+Karar=BLOCKED

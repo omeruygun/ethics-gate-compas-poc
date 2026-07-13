@@ -1,0 +1,1015 @@
+TY  - JOUR
+TI  - Software Engineering for Responsible AI
+AU  - Qinghua Lu
+AU  - Liming Zhu
+AU  - Jon Whittle
+AU  - James Bret Michael
+T2  - Computer
+PY  - 2023
+DO  - 10.1109/mc.2023.3242055
+UR  - https://doi.org/10.1109/mc.2023.3242055
+ER  - 
+
+TY  - JOUR
+TI  - Software engineering for Responsible AI: An empirical study and operationalised patterns
+AU  - Qinghua Lu
+AU  - Liming Zhu
+AU  - Xiwei Xu
+AU  - Jon Whittle
+AU  - David Douglas
+AU  - Conrad Sanderson
+T2  - 2022 IEEE/ACM 44th International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP)
+PY  - 2022
+DO  - 10.1109/icse-seip55303.2022.9793864
+UR  - https://doi.org/10.1109/icse-seip55303.2022.9793864
+ER  - 
+
+TY  - JOUR
+TI  - Context-conscious fairness throughout the machine learning lifecycle
+AU  - Seng Ah Lee
+T2  - 0
+PY  - 2022
+DO  - 0
+UR  - https://doi.org/0
+ER  - 
+
+TY  - JOUR
+TI  - Towards Implementing Responsible AI
+AU  - Conrad Sanderson
+AU  - Qinghua Lu
+AU  - David Douglas
+AU  - Xiwei Xu
+AU  - Liming Zhu
+AU  - Jon Whittle
+T2  - 2022 IEEE International Conference on Big Data (Big Data)
+PY  - 2022
+DO  - 10.1109/bigdata55660.2022.10021121
+UR  - https://doi.org/10.1109/bigdata55660.2022.10021121
+ER  - 
+
+TY  - JOUR
+TI  - Software Engineering as the Linchpin of Responsible AI
+AU  - Liming Zhu
+T2  - 2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE)
+PY  - 2023
+DO  - 10.1109/icse48619.2023.00012
+UR  - https://doi.org/10.1109/icse48619.2023.00012
+ER  - 
+
+TY  - JOUR
+TI  - Responsible-AI-by-Design: A Pattern Collection for Designing Responsible AI Systems
+AU  - Qinghua Lu
+AU  - Liming Zhu
+AU  - Xiwei Xu
+AU  - Jon Whittle
+T2  - IEEE Software
+PY  - 2023
+DO  - 10.1109/ms.2022.3233582
+UR  - https://doi.org/10.1109/ms.2022.3233582
+ER  - 
+
+TY  - JOUR
+TI  - Ethical AI and responsible automation in software engineering
+T2  - Advances in Computers
+PY  - 2025
+DO  - 10.1016/bs.adcom.2025.07.004
+UR  - https://doi.org/10.1016/bs.adcom.2025.07.004
+ER  - 
+
+TY  - JOUR
+TI  - Responsible AI in Agile Software Engineering - An Industry Perspective
+AU  - Rasmus Ulfsnes
+AU  - Nils Brede Moe
+AU  - Jostein Emmerhoff
+AU  - Marcin Floryan
+AU  - Anastasia Griva
+AU  - Jan Henrik Gundelsby
+AU  - Astri Moksnes Barbala
+AU  - Kieran Conboy
+T2  - Lecture notes in business information processing
+PY  - 2025
+DO  - 10.1007/978-3-031-72781-8_4
+UR  - https://doi.org/10.1007/978-3-031-72781-8_4
+ER  - 
+
+TY  - JOUR
+TI  - What’s Missing in Requirements Engineering for Responsible AI?
+AU  - Didar Zowghi
+AU  - Muneera Bano
+T2  - IEEE Software
+PY  - 2023
+DO  - 10.1109/ms.2023.3302934
+UR  - https://doi.org/10.1109/ms.2023.3302934
+ER  - 
+
+TY  - JOUR
+TI  - Educating Software and AI Stakeholders About Algorithmic Fairness, Accountability, Transparency and Ethics
+AU  - Veronika Bogina
+AU  - Alan Hartman
+AU  - Tsvi Kuflik
+AU  - Avital Shulner-tal
+T2  - International Journal of Artificial Intelligence in Education
+PY  - 2021
+DO  - 10.1007/s40593-021-00248-0
+UR  - https://doi.org/10.1007/s40593-021-00248-0
+ER  - 
+
+TY  - JOUR
+TI  - An Ethical AI Quiz
+AU  - Wei Teo
+AU  - Ze Teoh
+AU  - Dayang Abang Arabi
+AU  - Morad Aboushadi
+AU  - Khairenn Lai
+AU  - Zhe Ng
+AU  - Aastha Pant
+AU  - Rashina Hoda
+AU  - Chakkrit Tantithamthavorn
+AU  - Burak Turhan
+T2  - 2023 IEEE/ACM 45th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)
+PY  - 2023
+DO  - 10.1109/icse-companion58688.2023.00036
+UR  - https://doi.org/10.1109/icse-companion58688.2023.00036
+ER  - 
+
+TY  - JOUR
+TI  - Governance in Ethical, Trustworthy AI Systems: Extension of the ECCOLA Method for AI Ethics Governance Using GARP
+AU  - Mamia Agbese
+AU  - Hanna-kaisa Alanen
+AU  - Jani Antikainen
+AU  - Halme Erika
+AU  - Hannakaisa Isomäki
+AU  - Marianna Jantunen
+AU  - Kai-kristian Kemell
+AU  - Rebekah Rousi
+AU  - Heidi Vainio-pekka
+AU  - Ville Vakkur
+T2  - e-Informatica Software Engineering Journal
+PY  - 2023
+DO  - 10.37190/e-inf230101
+UR  - https://doi.org/10.37190/e-inf230101
+ER  - 
+
+TY  - JOUR
+TI  - Custom Developer GPT for Ethical AI Solutions
+AU  - Lauren Olson
+T2  - Proceedings of the IEEE/ACM 3rd International Conference on AI Engineering - Software Engineering for AI
+PY  - 2024
+DO  - 10.1145/3644815.3644987
+UR  - https://doi.org/10.1145/3644815.3644987
+ER  - 
+
+TY  - JOUR
+TI  - Making ethics practical: User stories as a way of implementing ethical consideration in Software Engineering
+AU  - Erika Halme
+AU  - Marianna Jantunen
+AU  - Ville Vakkuri
+AU  - Kai-kristian Kemell
+AU  - Pekka Abrahamsson
+T2  - Information and Software Technology
+PY  - 2023
+DO  - 10.1016/j.infsof.2023.107379
+UR  - https://doi.org/10.1016/j.infsof.2023.107379
+ER  - 
+
+TY  - JOUR
+TI  - Ethics in the Age of AI: An Analysis of AI Practitioners
+ER  - 
+
+TY  - JOUR
+TI  - Evaluating the Impact of Reinforcement Learning on Autonomous CI/CD Workflow Optimization
+AU  - Owen Graham
+AU  - Kelvin Kloss
+T2  - preprints.org
+PY  - 2025
+DO  - 10.20944/preprints202506.1400.v1
+UR  - https://doi.org/10.20944/preprints202506.1400.v1
+ER  - 
+
+TY  - JOUR
+TI  - Building the ethical AI framework of the future: from philosophy to practice
+AU  - Jasper Kyle Catapang
+T2  - 0
+PY  - 2026
+DO  - 10.1007/s43681-026-01003-8
+UR  - https://doi.org/10.1007/s43681-026-01003-8
+ER  - 
+
+TY  - JOUR
+TI  - ECCOLA - a Method for Implementing Ethically Aligned AI Systems
+AU  - Ville Vakkuri
+AU  - Kai-kristian Kemell
+AU  - Pekka Abrahamsson
+T2  - 2020 46th Euromicro Conference on Software Engineering and Advanced Applications (SEAA)
+PY  - 2020
+DO  - 10.1109/seaa51224.2020.00043
+UR  - https://doi.org/10.1109/seaa51224.2020.00043
+ER  - 
+
+TY  - JOUR
+TI  - Responsible MLOps Design Methodology for an Auditing System for AI-Based Clinical Decision Support Systems
+AU  - Pepita Barnard
+AU  - John Robert Bautista
+AU  - Aidan Dakhama
+AU  - Arya Farahi
+AU  - Kazim Laos
+AU  - Anqi Liu
+AU  - Héctor D. Menéndez
+T2  - Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+PY  - 2025
+DO  - 10.1007/978-3-031-80889-0_16
+UR  - https://doi.org/10.1007/978-3-031-80889-0_16
+ER  - 
+
+TY  - JOUR
+TI  - Fairness Across Fields: Comparing Software Engineering and Human Sciences Perspectives
+AU  - Lucas Valenca
+AU  - Ronnie De Souza Santos
+T2  - 0
+PY  - 2026
+ER  - 
+
+TY  - JOUR
+TI  - Enterprise Guide for Implementing Generative AI and Agentic AI (979-8-8688-1602-4,979-8-8688-1603-1)
+AU  - Shakuntala Gupta Edward
+AU  - Rahul Bhattacharya
+AU  - Vikas Sinha
+T2  - 0
+PY  - 2025
+DO  - 10.1007/979-8-8688-1603-1
+UR  - https://doi.org/10.1007/979-8-8688-1603-1
+ER  - 
+
+TY  - JOUR
+TI  - Decoupling in AI ethics: Learning how to walk the talk
+AU  - Ravit Dotan
+AU  - Tomer Gershoni
+AU  - Irit Hadar
+AU  - Gil Luria
+T2  - Empirical Software Engineering
+PY  - 2026
+DO  - 10.1007/s10664-026-10861-z
+UR  - https://doi.org/10.1007/s10664-026-10861-z
+ER  - 
+
+TY  - JOUR
+TI  - Towards a Business Case for AI Ethics
+AU  - Mamia Agbese
+AU  - Erika Halme
+AU  - Rahul Mohanani
+AU  - Pekka Abrahamsson
+T2  - Lecture notes in business information processing
+PY  - 2024
+DO  - 10.1007/978-3-031-53227-6_17
+UR  - https://doi.org/10.1007/978-3-031-53227-6_17
+ER  - 
+
+TY  - JOUR
+TI  - Encouraging responsible GenAI use in software engineering education: A design-oriented model
+AU  - Vəhid Gəruslu
+AU  - Zafar Jafarov
+AU  - Aytan Mövsümova
+AU  - Atif Namazov
+AU  - Hüseyn Mirzayev
+T2  - Journal of Systems and Software
+PY  - 2026
+DO  - 10.1016/j.jss.2026.112846
+UR  - https://doi.org/10.1016/j.jss.2026.112846
+ER  - 
+
+TY  - JOUR
+TI  - Software Architecture for Responsible Artificial Intelligence Systems: Practice in the Digitization of Industrial Drawings
+AU  - Zhicheng Bao
+AU  - Weishan Zhang
+AU  - Xingjie Zeng
+AU  - Hongwei Zhao
+AU  - Cihao Dong
+AU  - Yuming Nie
+AU  - Yuru Liu
+AU  - Yuange Liu
+AU  - Junzhong Wu
+T2  - Computer
+PY  - 2023
+DO  - 10.1109/mc.2023.3240416
+UR  - https://doi.org/10.1109/mc.2023.3240416
+ER  - 
+
+TY  - JOUR
+TI  - Artificial Intelligence for Software Engineering: The Journey So Far and the Road Ahead
+AU  - Iftekhar Ahmed
+AU  - Aldeida Aleti
+AU  - Haipeng Cai
+AU  - Alexander Chatzigeorgiou
+AU  - Pinjia He
+AU  - Xing Hu
+AU  - Mauro Pezzè
+AU  - Denys Poshyvanyk
+AU  - Xin Xia
+T2  - ACM Transactions on Software Engineering and Methodology
+PY  - 2025
+DO  - 10.1145/3719006
+UR  - https://doi.org/10.1145/3719006
+ER  - 
+
+TY  - JOUR
+TI  - FetalMLOps: operationalizing machine learning models for standard fetal ultrasound plane classification
+AU  - Matteo Testi
+AU  - Maria Chiara Fiorentino
+AU  - Matteo Ballabio
+AU  - Giorgio Visani
+AU  - Massimo Ciccozzi
+AU  - Emanuele Frontoni
+AU  - Sara Moccia
+AU  - Gennaro Vessio
+T2  - Medical
+PY  - 2025
+DO  - 10.1007/s11517-025-03436-5
+UR  - https://doi.org/10.1007/s11517-025-03436-5
+ER  - 
+
+TY  - JOUR
+TI  - What Is the Cost of AI Ethics? Initial Conceptual Framework and Empirical Insights
+AU  - Ville Vakkuri
+T2  - Lecture notes in business information processing
+PY  - 2024
+DO  - 10.1007/978-3-031-53227-6_18
+UR  - https://doi.org/10.1007/978-3-031-53227-6_18
+ER  - 
+
+TY  - JOUR
+TI  - Transitioning from MLOps to LLMOps: Navigating the Unique Challenges of Large Language Models
+AU  - Saurabh Pahune
+AU  - Zahid Akhtar
+T2  - Information
+PY  - 2025
+DO  - 10.3390/info16020087
+UR  - https://doi.org/10.3390/info16020087
+ER  - 
+
+TY  - JOUR
+TI  - Rethinking Autonomy: Preventing Failures in AI-Driven Software Engineering
+AU  - Satyam Kumar Navneet
+AU  - Joydeep Chandra
+T2  - 0
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+TI  - Ethics in AI through the practitioner’s view: a grounded theory literature review
+AU  - Aastha Pant
+AU  - Rashina Hoda
+AU  - Chakkrit Tantithamthavorn
+AU  - Burak Turhan
+T2  - Empirical Software Engineering
+PY  - 2024
+DO  - 10.1007/s10664-024-10465-5
+UR  - https://doi.org/10.1007/s10664-024-10465-5
+ER  - 
+
+TY  - JOUR
+TI  - The tech that
+ER  - 
+
+TY  - JOUR
+TI  - A Deployment Model to Extend Ethically Aligned AI Implementation Method ECCOLA
+AU  - Jani Antikainen
+AU  - Mamia Agbese
+AU  - Hanna-kaisa Alanen
+AU  - Erika Halme
+AU  - Hannakaisa Isomaki
+AU  - Marianna Jantunen
+AU  - Kai-kristian Kemell
+AU  - Rebekah Rousi
+AU  - Heidi Vainio-pekka
+AU  - Ville Vakkuri
+T2  - 2021 IEEE 29th International Requirements Engineering Conference Workshops (REW)
+PY  - 2021
+DO  - 10.1109/rew53955.2021.00043
+UR  - https://doi.org/10.1109/rew53955.2021.00043
+ER  - 
+
+TY  - JOUR
+TI  - A Preliminary Investigation of the Alignment of Responsible AI Values between LLMs and Human Judgment
+AU  - Asma Yamani
+AU  - Malak Baslyman
+AU  - Moataz Ahmed
+T2  - 0
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+TI  - Technical Briefing: Hands-On Session on the Development of Trustworthy AI Software
+AU  - Ville Vakkuri
+AU  - Kai-kristian Kemell
+AU  - Pekka Abrahamsson
+T2  - 2021 IEEE/ACM 43rd International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)
+PY  - 2021
+DO  - 10.1109/icse-companion52605.2021.00142
+UR  - https://doi.org/10.1109/icse-companion52605.2021.00142
+ER  - 
+
+TY  - JOUR
+TI  - $$AI^{2}$$: the next leap toward native language-based and explainable machine learning framework
+AU  - Jean-sébastien Dessureault
+AU  - Daniel Massicotte
+T2  - Automated Software Engineering
+PY  - 2023
+DO  - 10.1007/s10515-023-00399-5
+UR  - https://doi.org/10.1007/s10515-023-00399-5
+ER  - 
+
+TY  - JOUR
+TI  - Advancing Trustworthy AI in the Cloud Era: From Generative Models to Privacy-Preserving MLOps
+AU  - Elevane Dave
+AU  - Folorunsho Adeola
+AU  - Dave Noel
+T2  - preprints.org
+PY  - 2025
+DO  - 10.20944/preprints202508.2202.v1
+UR  - https://doi.org/10.20944/preprints202508.2202.v1
+ER  - 
+
+TY  - JOUR
+TI  - RAGVA: Engineering retrieval augmented generation-based virtual assistants in practice
+AU  - Rui Yang
+AU  - Michael Fu
+AU  - Chakkrit Tantithamthavorn
+AU  - Chetan Arora
+AU  - Lisa Vandenhurk
+AU  - Joey Chua
+T2  - Journal of Systems and Software
+PY  - 2025
+DO  - 10.1016/j.jss.2025.112436
+UR  - https://doi.org/10.1016/j.jss.2025.112436
+ER  - 
+
+TY  - JOUR
+TI  - Logging requirement for continuous auditing of responsible machine learning-based applications
+AU  - Patrick Loic Foalem
+AU  - Leuson Da Silva
+AU  - Foutse Khomh
+AU  - Heng Li
+AU  - Ettore Merlo
+T2  - EMPIRICAL SOFTWARE ENGINEERING
+PY  - 2025
+DO  - 10.1007/s10664-025-10656-8
+UR  - https://doi.org/10.1007/s10664-025-10656-8
+ER  - 
+
+TY  - JOUR
+TI  - SE Perspective on LLMs: Biases in Code Generation, Code Interpretability, and Code Security Risks
+AU  - Rrezarta Krasniqi
+AU  - Depeng Xu
+AU  - Marco Vieira
+T2  - ACM Computing Surveys
+PY  - 2025
+DO  - 10.1145/3774324
+UR  - https://doi.org/10.1145/3774324
+ER  - 
+
+TY  - JOUR
+TI  - Learning to Program Alongside AI: Critical Thinking, AI Ethics, and Gendered Patterns of German Secondary School Students
+AU  - Isabella Graßl
+T2  - 0
+PY  - 2026
+ER  - 
+
+TY  - JOUR
+TI  - A Brief History of Computing (978-3-032-04254-5,978-3-032-04255-2)
+AU  - Gerard O
+T2  - 0
+ER  - 
+
+TY  - JOUR
+TI  - Sustainable AI in the Cloud: Exploring Machine Learning Energy Use in the Cloud
+AU  - Paul Walsh
+AU  - Jhilam Bera
+AU  - Vibhu Saujanya Sharma
+AU  - Vikrant Kaulgud
+AU  - Raghotham M Rao
+AU  - Orlaith Ross
+T2  - 2021 36th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)
+PY  - 2021
+DO  - 10.1109/asew52652.2021.00058
+UR  - https://doi.org/10.1109/asew52652.2021.00058
+ER  - 
+
+TY  - JOUR
+TI  - Augmenting morality through ethics education: the ACTWith model
+AU  - Jeffrey White
+T2  - AI and Society
+PY  - 2024
+DO  - 10.1007/s00146-024-01864-9
+UR  - https://doi.org/10.1007/s00146-024-01864-9
+ER  - 
+
+TY  - JOUR
+TI  - Agent design pattern catalogue: A collection of architectural patterns for foundation model based agents
+AU  - Yue Liu
+AU  - Sin Kit Lo
+AU  - Qinghua Lu
+AU  - Liming Zhu
+AU  - Dehai Zhao
+AU  - Xiwei Xu
+AU  - Stefan Harrer
+AU  - Jon Whittle
+T2  - Journal of Systems and Software
+PY  - 2024
+DO  - 10.1016/j.jss.2024.112278
+UR  - https://doi.org/10.1016/j.jss.2024.112278
+ER  - 
+
+TY  - JOUR
+TI  - Audit-as-code: a policy-as-code framework for continuous AI assurance
+AU  - Aoun E. Muhammad
+AU  - Kin-choong Yow
+AU  - Shrooq Alsenan
+T2  - Frontiers in Artificial Intelligence
+PY  - 2026
+DO  - 10.3389/frai.2026.1759211
+UR  - https://doi.org/10.3389/frai.2026.1759211
+ER  - 
+
+TY  - JOUR
+TI  - Fairer Software Made Easier (using “Keys”)
+AU  - Tim Menzies
+AU  - Kewen Peng
+AU  - Andre Lustosa
+T2  - 2021 36th IEEE/ACM International Conference on Automated Software Engineering Workshops (ASEW)
+PY  - 2021
+DO  - 10.1109/asew52652.2021.00031
+UR  - https://doi.org/10.1109/asew52652.2021.00031
+ER  - 
+
+TY  - JOUR
+TI  - Ethical assurance: a practical approach to the responsible design, development, and deployment of data-driven technologies
+AU  - Christopher Burr
+AU  - David Leslie
+T2  - AI and Ethics
+PY  - 2022
+DO  - 10.1007/s43681-022-00178-0
+UR  - https://doi.org/10.1007/s43681-022-00178-0
+ER  - 
+
+TY  - JOUR
+TI  - Towards an Analytical System for Supervising Fairness, Robustness, and Dataset Shifts in Health AI
+AU  - Ángel Sánchez-garcía
+AU  - David Fernández-narro
+AU  - Pablo Ferri
+AU  - Juan M. García-gómez
+AU  - Carlos Sáez
+T2  - Studies in Health Technology and Informatics
+PY  - 2025
+DO  - 10.3233/SHTI251537
+UR  - https://doi.org/10.3233/SHTI251537
+ER  - 
+
+TY  - JOUR
+TI  - Fairness Testing Through Extreme Value Theory
+AU  - Verya Monjezi
+AU  - Ashutosh Trivedi
+AU  - Vladik Kreinovich
+AU  - Saeid Tizpaz-niari
+T2  - 2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)
+PY  - 2025
+DO  - 10.1109/icse55347.2025.00070
+UR  - https://doi.org/10.1109/icse55347.2025.00070
+ER  - 
+
+TY  - JOUR
+TI  - Ethical and Legal Aspects of Computing (978-3-031-52663-3,978-3-031-52664-0)
+AU  - Gerard O
+T2  - Undergraduate Topics in Computer Science
+ER  - 
+
+TY  - JOUR
+TI  - Causality-Aided Trade-Off Analysis for Machine Learning Fairness
+AU  - Zhenlan Ji
+AU  - Pingchuan Ma
+AU  - Shuai Wang
+AU  - Yanhui Li
+T2  - 2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)
+PY  - 2023
+DO  - 10.1109/ase56229.2023.00105
+UR  - https://doi.org/10.1109/ase56229.2023.00105
+ER  - 
+
+TY  - JOUR
+TI  - Towards Concrete and Connected AI Risk Assessment (C2AIRA): A Systematic Mapping Study
+AU  - Boming Xia
+AU  - Qinghua Lu
+AU  - Harsha Perera
+AU  - Liming Zhu
+AU  - Zhenchang Xing
+AU  - Yue Liu
+AU  - Jon Whittle
+T2  - 2023 IEEE/ACM 2nd International Conference on AI Engineering – Software Engineering for AI (CAIN)
+PY  - 2023
+DO  - 10.1109/cain58948.2023.00027
+UR  - https://doi.org/10.1109/cain58948.2023.00027
+ER  - 
+
+TY  - JOUR
+TI  - Engineering of Computer-Based Systems (978-3-031-49251-8,978-3-031-49252-5)
+AU  - Jan Kofroň
+AU  - Tiziana Margaria
+AU  - Cristina Seceleanu
+T2  - Lecture Notes in Computer Science
+PY  - 2024
+DO  - 10.1007/978-3-031-49252-5
+UR  - https://doi.org/10.1007/978-3-031-49252-5
+ER  - 
+
+TY  - JOUR
+TI  - How to Write Ethical User Stories? Impacts of the ECCOLA Method
+AU  - Erika Halme
+AU  - Ville Vakkuri
+AU  - Joni Kultanen
+AU  - Marianna Jantunen
+AU  - Kai-kristian Kemell
+AU  - Rebekah Rousi
+AU  - Pekka Abrahamsson
+T2  - Lecture Notes in Business Information Processing
+PY  - 2021
+DO  - 10.1007/978-3-030-78098-2_3
+UR  - https://doi.org/10.1007/978-3-030-78098-2_3
+ER  - 
+
+TY  - JOUR
+TI  - Workshop summaries from the 2024 voice AI symposium, presented by the Bridge2AI-voice consortium
+AU  - Ruth Bahr
+AU  - James Anibal
+AU  - Steven Bedrick
+AU  - Jean-christophe Bélisle-pipon
+AU  - Yael Bensoussan
+AU  - Nate Blaylock
+AU  - Joris Castermans
+AU  - Keith Comito
+AU  - David Dorr
+AU  - Greg Hale
+AU  - Christie Jackson
+AU  - Andrea Krussel
+AU  - Kimberly Kuman
+AU  - Akash Raj Komarlu
+AU  - Jordan Lerner-ellis
+AU  - Maria Powell
+AU  - Vardit Ravitsky
+AU  - Anaïs Rameau
+AU  - Charlie Reavis
+AU  - Alexandros Sigaras
+AU  - Samantha Salvi Cruz
+AU  - Jenny Vojtech
+AU  - Megan Urbano
+AU  - Stephanie Watts
+AU  - Robin Zhao
+AU  - Jamie Toghranegar
+T2  - Frontiers in Digital Health
+PY  - 2024
+DO  - 10.3389/fdgth.2024.1484818
+UR  - https://doi.org/10.3389/fdgth.2024.1484818
+ER  - 
+
+TY  - JOUR
+TI  - Towards a Framework for Supporting the Ethical and Regulatory Certification of AI Systems
+AU  - Fabian Kovac
+AU  - Sebastian Neumaier
+AU  - Timea Pahi
+AU  - Torsten Priebe
+AU  - Rafael Rodrigues
+AU  - Dimitrios Christodoulou
+AU  - Maxime Cordy
+AU  - Sylvain Kubler
+AU  - Ali Kordia
+AU  - Georgios Pitsiladis
+AU  - John Soldatos
+AU  - Petros Zervoudakis
+T2  - 0
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+TI  - AI-Enabled Apps with .NET MAUI (979-8-8688-1816-5,979-8-8688-1817-2)
+AU  - Codrina Merigo
+T2  - 0
+PY  - 2026
+DO  - 10.1007/979-8-8688-1817-2
+UR  - https://doi.org/10.1007/979-8-8688-1817-2
+ER  - 
+
+TY  - JOUR
+TI  - Build Your Own Robot Friend: An Open-Source Learning Module for Accessible and Engaging AI Education
+AU  - Zhonghao Shi
+AU  - Amy O
+T2  - Proceedings of the AAAI Conference on Artificial Intelligence
+ER  - 
+
+TY  - JOUR
+TI  - FairSense: Long-Term Fairness Analysis of ML-Enabled Systems
+AU  - Yining She
+AU  - Sumon Biswas
+AU  - Christian Kästner
+AU  - Eunsuk Kang
+T2  - 2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)
+PY  - 2025
+DO  - 10.1109/icse55347.2025.00159
+UR  - https://doi.org/10.1109/icse55347.2025.00159
+ER  - 
+
+TY  - JOUR
+TI  - Driving Digital Transformation with Microsoft Foundry (979-8-8688-2478-4,979-8-8688-2479-1)
+AU  - Mezba Uddin
+T2  - 0
+PY  - 2026
+DO  - 10.1007/979-8-8688-2479-1
+UR  - https://doi.org/10.1007/979-8-8688-2479-1
+ER  - 
+
+TY  - JOUR
+TI  - Artificial Intelligence Applications and Innovations 16th IFIP WG 12.5 International Conference, AIAI 2020, Neos Marmaras, Greece, June 5–7, 2020, Proceedings
+AU  - Ilias Maglogiannis
+AU  - Lazaros Iliadis
+AU  - Elias Pimenidis
+T2  - IFIP Advances in Information and Communication Technology
+PY  - 2020
+DO  - https://doi.org/10.1007/978-3-030-49186-4
+UR  - https://doi.org/https://doi.org/10.1007/978-3-030-49186-4
+ER  - 
+
+TY  - JOUR
+TI  - Let’s Talk AI
+AU  - Barbara Steffen
+AU  - Edward A. Lee
+AU  - Bernhard Steffen
+T2  - Lecture Notes in Computer Science
+PY  - 2026
+DO  - 10.1007/978-3-032-09008-9
+UR  - https://doi.org/10.1007/978-3-032-09008-9
+ER  - 
+
+TY  - JOUR
+TI  - AI Management Framework (979-8-8688-1535-5,979-8-8688-1536-2)
+AU  - John Kyriazoglou
+T2  - 0
+PY  - 2025
+DO  - 10.1007/979-8-8688-1536-2
+UR  - https://doi.org/10.1007/979-8-8688-1536-2
+ER  - 
+
+TY  - JOUR
+TI  - The Role of Analyst Engineer in Algorithm Life and Social Cycle
+AU  - Yaroslav S. Gosudarkin
+AU  - Kirill V. Krinkin
+AU  - Mikhail V. Takmakov
+AU  - Larisa V. Sharakhina
+T2  - 2021 IEEE Conference of Russian Young Researchers in Electrical and Electronic Engineering (ElConRus)
+PY  - 2021
+DO  - 10.1109/elconrus51938.2021.9396293
+UR  - https://doi.org/10.1109/elconrus51938.2021.9396293
+ER  - 
+
+TY  - JOUR
+TI  - Reimagine Pricing (978-3-031-90417-2,978-3-031-90418-9)
+AU  - Jan Y. Yang
+T2  - 0
+PY  - 2025
+DO  - 10.1007/978-3-031-90418-9
+UR  - https://doi.org/10.1007/978-3-031-90418-9
+ER  - 
+
+TY  - JOUR
+TI  - Towards an AI-centric Requirements Engineering Framework for Trustworthy AI
+AU  - Krishna Ronanki
+T2  - 2023 IEEE/ACM 45th International Conference on Software Engineering: Companion Proceedings (ICSE-Companion)
+PY  - 2023
+DO  - 10.1109/icse-companion58688.2023.00075
+UR  - https://doi.org/10.1109/icse-companion58688.2023.00075
+ER  - 
+
+TY  - JOUR
+TI  - From AI Strategy to Executable Controls: A PRISMA-Guided Review of AI Governance for Cybersecurity Efficiency in Azerbaijan
+AU  - Leyla Tarlan Dadashova
+AU  - Rahid Zahid Alekberli
+T2  - preprints.org
+PY  - 2026
+DO  - 10.20944/preprints202606.0428.v1
+UR  - https://doi.org/10.20944/preprints202606.0428.v1
+ER  - 
+
+TY  - JOUR
+TI  - Vibe Coding: Toward an AI-Native Paradigm for Semantic and Intent-Driven Programming
+AU  - Vinay Bamil
+T2  - 0
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+TI  - Towards trusting the ethical evolution of autonomous dynamic ecosystems
+AU  - Emilia Cioroaica
+AU  - Barbora Buhnova
+AU  - Emrah Tomur
+T2  - Proceedings of the 1st Workshop on Software Engineering for Responsible AI
+PY  - 2022
+DO  - 10.1145/3526073.3527585
+UR  - https://doi.org/10.1145/3526073.3527585
+ER  - 
+
+TY  - JOUR
+TI  - AI Revolution: Research, Ethics and Society (978-3-032-12312-1,978-3-032-12313-8)
+AU  - Hamid R. Arabnia
+AU  - Leonidas Deligiannidis
+AU  - Soheyla Amirian
+AU  - Farid Ghareh Mohammadi
+AU  - Farzan Shenavarmasouleh
+T2  - Communications in Computer and Information Science
+PY  - 2026
+DO  - 10.1007/978-3-032-12313-8
+UR  - https://doi.org/10.1007/978-3-032-12313-8
+ER  - 
+
+TY  - JOUR
+TI  - Agentsway -- Software Development Methodology for AI Agents-based Teams
+AU  - Eranga Bandara
+AU  - Ross Gore
+AU  - Xueping Liang
+AU  - Sachini Rajapakse
+AU  - Isurunima Kularathne
+AU  - Pramoda Karunarathna
+AU  - Peter Foytik
+AU  - Sachin Shetty
+AU  - Ravi Mukkamala
+AU  - Abdul Rahman
+AU  - Amin Hass
+AU  - Ng Wee Keong
+AU  - Kasun De Zoysa
+AU  - Aruna Withanage
+AU  - Nilaan Loganathan
+T2  - 0
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+TI  - Digital Governance Standards, Certification and Legislation
+AU  - Michel Girard
+T2  - Canada Needs Its “New Approach” to Streamline Digital Rulemaking
+PY  - 2023
+DO  - 10.2307/resrep52264.9
+UR  - https://doi.org/10.2307/resrep52264.9
+ER  - 
+
+TY  - JOUR
+TI  - Building AI-Powered Responsible Workforce by Integrating Large Language Models into Computer Science Curriculum
+AU  - Brian K. Hare
+AU  - Joan Gladbach
+AU  - S. Jawad Shah
+AU  - Dianxiang Xu
+T2  - SIGCSE TS 2025 - Proceedings of the 56th ACM Technical Symposium on Computer Science Education
+PY  - 2025
+DO  - 10.1145/3641555.3704749
+UR  - https://doi.org/10.1145/3641555.3704749
+ER  - 
+
+TY  - JOUR
+TI  - AI for Requirements Engineering: Industry adoption and Practitioner perspectives
+AU  - Lekshmi Murali Rani
+AU  - Richard Berntsson Svensson
+AU  - Robert Feldt
+T2  - 0
+PY  - 2025
+ER  - 
+
+TY  - JOUR
+TI  - Great To See Indian Woman...I
+ER  - 
+
+TY  - JOUR
+TI  - AI Revolution: Research, Ethics and Society (978-3-032-12929-1,978-3-032-12930-7)
+AU  - Hamid R. Arabnia
+AU  - Leonidas Deligiannidis
+AU  - Soheyla Amirian
+AU  - Farid Ghareh Mohammadi
+AU  - Farzan Shenavarmasouleh
+T2  - Communications in Computer and Information Science
+PY  - 2026
+DO  - 10.1007/978-3-032-12930-7
+UR  - https://doi.org/10.1007/978-3-032-12930-7
+ER  - 
+
+TY  - JOUR
+TI  - Build Your Own Robot Friend: An Open-Source Learning Module for  Accessible and Engaging AI Education
+AU  - Zhonghao Shi
+AU  - Allison O
+T2  - 0
+ER  - 
+
+TY  - JOUR
+TI  - Responsible Use of AI in Military Systems
+T2  - Chapman
+PY  - 2024
+DO  - 10.1201/9781003410379
+UR  - https://doi.org/10.1201/9781003410379
+ER  - 
+
+TY  - JOUR
+TI  - The Contribution of AI-Powered Mobile Apps to Smart City Ecosystems
+AU  - Zaki Ali Bayashot
+T2  - Journal of Software Engineering and Applications
+PY  - 2024
+DO  - 10.4236/jsea.2024.173008
+UR  - https://doi.org/10.4236/jsea.2024.173008
+ER  - 
+
+TY  - JOUR
+TI  - Computational Science and Its Applications – ICCSA 2022 Workshops
+AU  - Osvaldo Gervasi
+AU  - Beniamino Murgante
+AU  - Sanjay Misra
+AU  - Ana Maria A. C. Rocha
+AU  - Chiara Garau
+T2  - Lecture Notes in Computer Science
+PY  - 2022
+DO  - 10.1007/978-3-031-10592-0
+UR  - https://doi.org/10.1007/978-3-031-10592-0
+ER  - 
+
+TY  - JOUR
+TI  - Computational Science and Its Applications – ICCSA 2022
+AU  - Osvaldo Gervasi
+AU  - Beniamino Murgante
+AU  - Eligius M. T. Hendrix
+AU  - David Taniar
+AU  - Bernady O. Apduhan
+T2  - Lecture Notes in Computer Science
+PY  - 2022
+DO  - 10.1007/978-3-031-10522-7
+UR  - https://doi.org/10.1007/978-3-031-10522-7
+ER  - 
+
+TY  - JOUR
+TI  - Carbon-Taxed Transformers: A Green Compression Pipeline for Overgrown Language Models
+AU  - Ajmain Inqiad Alam
+AU  - Palash Roy
+AU  - Chanchal K. Roy
+AU  - Banani Roy
+AU  - Kevin A. Schneider
+T2  - 0
+PY  - 2026
+DO  - 10.1145/3797075
+UR  - https://doi.org/10.1145/3797075
+ER  - 
+
+TY  - JOUR
+TI  - Editorial: Advancing AI-driven code generation and synthesis: challenges, metrics, and ethical implications
+AU  - Sumeet Kaur Sehra
+AU  - Sukhjit Singh Sehra
+AU  - David S. Allison
+AU  - Jaiteg Singh
+T2  - Frontiers in Artificial Intelligence
+PY  - 2026
+DO  - 10.3389/frai.2026.1816684
+UR  - https://doi.org/10.3389/frai.2026.1816684
+ER  - 
+
+TY  - JOUR
+TI  - A New Reinforcement Learning-Based Framework for Unbiased Autonomous Software Systems
+AU  - Ismail Abiodun Sulaimon
+AU  - Ahmed Ghoneim
+AU  - Mubarak Alrashoud
+T2  - 2019 8th International Conference on Modeling Simulation and Applied Optimization (ICMSAO)
+PY  - 2019
+DO  - 10.1109/icmsao.2019.8880288
+UR  - https://doi.org/10.1109/icmsao.2019.8880288
+ER  - 
+
+TY  - JOUR
+TI  - Practical Machine Learning
+AU  - Ally S. Nyamawe
+AU  - Mohamedi M. Mjahidi
+AU  - Noe E. Nnko
+AU  - Salim A. Diwani
+AU  - Godbless G. Minja
+AU  - Kulwa Malyango
+T2  - 0
+PY  - 2025
+DO  - 10.1201/9781003486817
+UR  - https://doi.org/10.1201/9781003486817
+ER  - 
+
+TY  - JOUR
+TI  - A hybrid approach for identifying drug repurposing candidates and their mechanisms: An interview with Vanessa Lage-Rupprecht and two co-authors
+AU  - Vanessa Lage-rupprecht
+AU  - Bruce Schultz
+AU  - Marcin Namysl
+T2  - Patterns
+PY  - 2022
+DO  - 10.1016/j.patter.2022.100466
+UR  - https://doi.org/10.1016/j.patter.2022.100466
+ER  - 
+
+TY  - JOUR
+TI  - AI, Data, and Digitalization
+T2  - Communications in Computer and Information Science
+PY  - 2024
+DO  - 10.1007/978-3-031-53770-7
+UR  - https://doi.org/10.1007/978-3-031-53770-7
+ER  - 
+

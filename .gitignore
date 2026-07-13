@@ -6,3 +6,11 @@ venv/
 *.egg-info/
 .pytest_cache/
 compas_synthetic.csv
+
+# Eski çoklu-script prototip (sentetik iddialı); tek kaynak = compas_ethics_gate.py
+explain.py
+fairness.py
+generate_data.py
+model.py
+metrics.json
+shap_importance.png

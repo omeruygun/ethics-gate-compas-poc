@@ -1,0 +1,6 @@
+category,n,description
+SDLC ile teknik ilişki yok,10,Yalnızca felsefi/normatif tartışma; yazılım süreci bileşeni bulunmuyor
+Dar uygulama alanı,8,"Tek bir sektöre (sağlık, finans vb.) özgü; genel SDLC çerçevesiyle örtüşme zayıf"
+Araştırma sorusuyla yetersiz örtüşme,4,"Responsible AI kapsıyor ancak SDLC, MLOps veya CI/CD boyutu yok"
+Erişilemeyen tam metin (akışta ayrı),2,Tam metin uygunluk değerlendirmesine alınmadan önce ayrılmıştır; gerekçeli dışlama toplamına dahil edilmez.
+Gerekçeli dışlama toplamı,22,10 + 8 + 4 (erişilemeyen hariç)

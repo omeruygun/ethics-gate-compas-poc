@@ -1,0 +1,8 @@
+stage,decision,n,notes
+title_abstract,exclude,95,kriter uyumsuz / kapsam dışı
+title_abstract,pass_to_full_text,45,
+full_text,inaccessible,2,akışta ayrı
+full_text,exclude_no_sdlc_link,10,Tablo 4
+full_text,exclude_narrow_domain,8,Tablo 4
+full_text,exclude_weak_rq_overlap,4,Tablo 4
+full_text,include,21,20 systematic + 1 background

@@ -1,0 +1,24 @@
+{
+  "captured_at": "2026-07-14 00:32 TRT",
+  "source": "Piri Keşif Aracı (SDÜ)",
+  "url_user": "https://kesifaraci.com/index.jsp?modul=advantage-search&operator=or&searchword=%28%22responsible+AI%22+OR+%22ethical+AI%22+OR+%22AI+ethics%22+OR+%22algorithmic+fairness%22%29+AND+%28%22software+engineering%22+OR+%22SDLC%22+OR+%22MLOps%22+OR+%22machine+learning+lifecycle%22+OR+%22CI%2FCD%22%29&fields=all&pageorder=50&p=1",
+  "url_with_uid": "https://kesifaraci.com/index.jsp?uid=sdu.edu.tr&modul=advantage-search&operator=or&searchword=%28%22responsible+AI%22+OR+%22ethical+AI%22+OR+%22AI+ethics%22+OR+%22algorithmic+fairness%22%29+AND+%28%22software+engineering%22+OR+%22SDLC%22+OR+%22MLOps%22+OR+%22machine+learning+lifecycle%22+OR+%22CI%2FCD%22%29&fields=all&pageorder=50&p=1",
+  "fields": "all",
+  "pageorder": 50,
+  "page": 1,
+  "ec_total_results_pageorder50": 132,
+  "ec_total_results_pageorder30_check": 134,
+  "html_sha256_pageorder50": "dbf4db120a585b7312f52e3b6a9cf9ca925bab9113ae32d88933c823e3c34d5f",
+  "html_bytes": 1058303,
+  "unique_record_ids_on_page": 39,
+  "sample_titles_on_page": [
+    "ECCOLA - a Method for Implementing Ethically Aligned AI Systems",
+    "Software Architecture for Responsible Artificial Intelligence Systems: Practice in the Digitization of Industrial Drawings",
+    "Full Text Access",
+    "Access Permission",
+    "Analiz Sonucu",
+    "Deneme Erişimde Olan Üniversitenizi Seçiniz."
+  ],
+  "boolean_query": "(\"responsible+AI\"+OR+\"ethical+AI\"+OR+\"AI+ethics\"+OR+\"algorithmic+fairness\")+AND+(\"software+engineering\"+OR+\"SDLC\"+OR+\"MLOps\"+OR+\"machine+learning+lifecycle\"+OR+\"CI/CD\")",
+  "note": "HTML sunucu tarafında var ec (evidence/count) alanı pagination scriptinde. UI’deki “N sonuç bulundu” JS ile dolduruluyor; ec ile tutarlı. Haziran 2026 makale oturumu n=138; 14 Temmuz ekran görüntüsü n=142; bu canlı yeniden koşum (pageorder=50) n≈132. Endeks dalgalanması küçük."
+}

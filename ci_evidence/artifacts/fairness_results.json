@@ -1,0 +1,147 @@
+{
+  "run_id": "20260713T210535Z",
+  "model": "LogisticRegression",
+  "dataset": {
+    "source_file": "compas-scores-two-years.csv",
+    "source_md5": "9165d40c400bba93a8cffece2b74622b",
+    "n_raw": 7214,
+    "n_after_days_filter": 6172,
+    "n_after_is_recid": 6172,
+    "n_after_charge_degree": 6172,
+    "n_clean": 6172,
+    "filters": [
+      "-30 <= days_b_screening_arrest <= 30",
+      "is_recid != -1",
+      "c_charge_degree != 'O'",
+      "score_text notna",
+      "race: Asian/Native American -> Other"
+    ],
+    "provenance": "Real ProPublica COMPAS (Angwin et al., 2016); not synthetic"
+  },
+  "random_seed": 42,
+  "test_size": 0.3,
+  "n_train": 4320,
+  "n_test": 1852,
+  "features": [
+    "age",
+    "sex_enc",
+    "juv_fel_count",
+    "juv_misd_count",
+    "priors_count",
+    "charge_enc"
+  ],
+  "sensitive_feature": "race_group (excluded from model features)",
+  "performance": {
+    "accuracy": 0.6809,
+    "precision": 0.6837,
+    "recall": 0.5563,
+    "f1_score": 0.6135
+  },
+  "fairness_metrics": {
+    "demographic_parity_difference": 0.2857,
+    "equalized_odds_difference": 0.2945
+  },
+  "metricframe_by_group": {
+    "selection_rate": {
+      "African-American": 0.4948,
+      "Caucasian": 0.2372,
+      "Hispanic": 0.2624,
+      "Other": 0.2091
+    },
+    "false_positive_rate": {
+      "African-American": 0.2989,
+      "Caucasian": 0.158,
+      "Hispanic": 0.1481,
+      "Other": 0.1026
+    },
+    "true_positive_rate": {
+      "African-American": 0.6654,
+      "Caucasian": 0.3708,
+      "Hispanic": 0.4167,
+      "Other": 0.4688
+    }
+  },
+  "group_metrics": {
+    "African-American": {
+      "TP": 340,
+      "FP": 133,
+      "TN": 312,
+      "FN": 171,
+      "FPR": 0.2989,
+      "TPR": 0.6654,
+      "selection_rate": 0.4948,
+      "n": 956
+    },
+    "Caucasian": {
+      "TP": 89,
+      "FP": 64,
+      "TN": 341,
+      "FN": 151,
+      "FPR": 0.158,
+      "TPR": 0.3708,
+      "selection_rate": 0.2372,
+      "n": 645
+    },
+    "Hispanic": {
+      "TP": 25,
+      "FP": 12,
+      "TN": 69,
+      "FN": 35,
+      "FPR": 0.1481,
+      "TPR": 0.4167,
+      "selection_rate": 0.2624,
+      "n": 141
+    },
+    "Other": {
+      "TP": 15,
+      "FP": 8,
+      "TN": 70,
+      "FN": 17,
+      "FPR": 0.1026,
+      "TPR": 0.4688,
+      "selection_rate": 0.2091,
+      "n": 110
+    }
+  },
+  "validation": {
+    "manual_dpd": 0.2857,
+    "manual_eod": 0.2946,
+    "fairlearn_dpd": 0.2857,
+    "fairlearn_eod": 0.2945,
+    "dpd_match": true,
+    "eod_match": true,
+    "n_test_sum_groups": 1852
+  },
+  "proxy_indicators": {
+    "note": "Olası proxy göstergesi; nedensel sızma kanıtı değildir.",
+    "age_pointbiserial_r": -0.1756,
+    "age_p": 2.7020165426719542e-14,
+    "priors_pointbiserial_r": 0.2485,
+    "priors_p": 1.8181372094903573e-27,
+    "age_mannwhitney_p": 1.088443581000402e-14,
+    "priors_mannwhitney_p": 1.575050074374392e-20,
+    "age_mean_AA": 32.59,
+    "age_mean_CAU": 37.8,
+    "priors_mean_AA": 4.41,
+    "priors_mean_CAU": 2.06
+  },
+  "shap_mean_abs": {
+    "age": 0.4368,
+    "sex_enc": 0.1125,
+    "juv_fel_count": 0.008,
+    "juv_misd_count": 0.0068,
+    "priors_count": 0.5169,
+    "charge_enc": 0.1386
+  },
+  "threshold": 0.1,
+  "threshold_note": "Deneysel operasyonel eşik; evrensel standart değildir.",
+  "gate_decision": "BLOCKED",
+  "reason": "DPD=0.2857 ve/veya EOD=0.2945 eşiği (0.1) aşıyor.",
+  "artifacts": {
+    "figure_fpr_tpr": "figure_fpr_tpr.png",
+    "figure_proxy": "figure_proxy_distributions.png",
+    "figure_shap": "figure_shap_importance.png",
+    "table8_txt": "table8.txt",
+    "table9_txt": "table9.txt"
+  }
+}

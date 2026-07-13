@@ -1,0 +1,22 @@
+authors,year,pub_type,method,sdlc_stage,tools_metrics,contribution,sample_role
+Angwin ve ark.,2016,Vaka / Arka plan (2019 öncesi)*,Vaka Analizi,Üretim / İzleme,COMPAS Skoru,Algoritmik yanlılık ifşası (COMPAS),background_case
+Arrieta ve ark.,2020,Dergi Makalesi,Literatür Taraması,Test,"SHAP, LIME",XAI taksonomisi ve sorumluluk çerçevesi,systematic_mapping_2019_2026
+Ashmore ve ark.,2021,Dergi Makalesi,Çerçeve Geliştirme,Tüm Aşamalar,Güvence Kriterleri,ML yaşam döngüsü güvence metodolojisi,systematic_mapping_2019_2026
+Ayling ve Chapman,2021,Dergi Makalesi,Araç Değerlendirmesi,Tüm Aşamalar,Etik Araç Matrisi,Etik YZ araçlarının işlevsellik analizi,systematic_mapping_2019_2026
+Bellamy ve ark.,2019,Dergi Makalesi,Araç Geliştirme,Veri/Geliştirme,AIF360 Metrikleri,IBM AI Fairness 360 çerçevesi,systematic_mapping_2019_2026
+Bird ve ark.,2020,Teknik Rapor,Araç Geliştirme,Test/Dağıtım,Fairlearn API,Microsoft Fairlearn araç seti,systematic_mapping_2019_2026
+European Parliament,2024,Resmi Belge,Yasal Düzenleme,Tüm Aşamalar,Risk Kategorileri,AB Yapay Zeka Yasası yükümlülükleri,systematic_mapping_2019_2026
+Hossain ve ark.,2026,Preprint (arXiv),Prototip Uygulama,Dağıtım/MLOps,CI/CD Gate Metrikleri,Etik gate mekanizmalı MLOps hattı,systematic_mapping_2019_2026
+Jobin ve ark.,2019,Dergi Makalesi,Meta-Analiz,Gereksinim,Etik İlkeler Seti,Küresel YZ etik kılavuzlarının haritası,systematic_mapping_2019_2026
+Leon,2026,Dergi Makalesi,Çerçeve Geliştirme,Üretim/İzleme,Yönetişim Yapısı,Yaşam döngüsü tabanlı hesap verebilirlik,systematic_mapping_2019_2026
+Lu ve ark.,2022,Konferans Bildirisi,Yol Haritası,Tüm Aşamalar,SE Pratikleri,Sorumlu YZ için SE yol haritası,systematic_mapping_2019_2026
+Lu ve ark.,2023,Dergi Makalesi,Desen Kataloğu,Tüm Aşamalar,YZ Desenleri,Responsible-AI-by-design desen koleksiyonu,systematic_mapping_2019_2026
+Lu ve ark.,2024,Dergi Makalesi,Desen Kataloğu,Tüm Aşamalar,Yönetişim Desenleri,Sorumlu YZ desen kataloğu (ACM Surveys),systematic_mapping_2019_2026
+Madaio ve ark.,2020,Konferans Bildirisi,Katılımcı Tasarım,Tüm Aşamalar,Adalet Kontrol Listesi,Kurumsal adalet kontrol listesi tasarımı,systematic_mapping_2019_2026
+Mehrabi ve ark.,2021,Dergi Makalesi,Literatür Taraması,Veri/Geliştirme,Önyargı Taksonomisi,ML önyargı ve adalet kapsamlı taraması,systematic_mapping_2019_2026
+Morley ve ark.,2023,Dergi Makalesi,Vaka Çalışması,Gereksinim/Tasarım,Agile Backlog Entegrasyonu,Agile SDLC'ye etik entegrasyon,systematic_mapping_2019_2026
+NIST,2023,Teknik Rapor,Risk Çerçevesi,Tüm Aşamalar,AI RMF İşlevleri,AI Risk Yönetimi Çerçevesi v1.0,systematic_mapping_2019_2026
+Passi & Barocas,2019,Konferans Bildirisi,Nitel Araştırma,Gereksinim,Problem Formülasyonu,Problem tanımının adalet üzerindeki etkisi,systematic_mapping_2019_2026
+Raji ve ark.,2020,Konferans Bildirisi,Çerçeve Geliştirme,Üretim/İzleme,Model Kartı,Algoritmik denetim uçtan uca çerçevesi,systematic_mapping_2019_2026
+Tabassi ve ark.,2023,Teknik Rapor,Çerçeve Geliştirme,Veri/Geliştirme,Önyargı Kategorileri,NIST SP 1270: YZ'de önyargı yönetimi,systematic_mapping_2019_2026
+Xu ve ark.,2023,Dergi Makalesi,Derleme,Tüm Aşamalar,HCI Metrikleri,İnsan-YZ etkileşimi geçiş çerçevesi,systematic_mapping_2019_2026

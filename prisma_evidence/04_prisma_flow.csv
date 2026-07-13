@@ -1,0 +1,11 @@
+stage,n,note
+identified_total,153,DB 138 + grey 15
+duplicates_removed,13,Piri otomatik birleştirme / manuel kontrol
+screened_title_abstract,140,
+excluded_title_abstract,95,dahil etme/dışlama kriterleri
+full_text_sought,45,
+full_text_inaccessible,2,uygunluk değerlendirmesine alınmadı
+full_text_assessed,43,
+excluded_full_text_reasoned,22,10+8+4 kategoriler
+included_total_reported,21,20 systematic + 1 background/case (Angwin 2016)
+systematic_mapping_sample,20,2019–2026

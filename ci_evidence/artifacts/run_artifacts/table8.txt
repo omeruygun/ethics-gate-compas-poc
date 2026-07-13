@@ -1,0 +1,6 @@
+Tablo 8. Demografik gruba göre grup bazlı sınıflandırma matrisi (test seti, n=1852; Gerçek COMPAS)
+Grup | TP | FP | TN | FN | n | FPR | TPR | selection_rate
+African-American | 340 | 133 | 312 | 171 | 956 | 0.2989 | 0.6654 | 0.4948
+Caucasian | 89 | 64 | 341 | 151 | 645 | 0.1580 | 0.3708 | 0.2372
+Hispanic | 25 | 12 | 69 | 35 | 141 | 0.1481 | 0.4167 | 0.2624
+Other | 15 | 8 | 70 | 17 | 110 | 0.1026 | 0.4688 | 0.2091

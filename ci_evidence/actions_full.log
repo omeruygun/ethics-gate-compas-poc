@@ -1,0 +1,480 @@
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	﻿2026-07-13T21:05:07.4331549Z Current runner version: '2.335.1'
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4368803Z ##[group]Runner Image Provisioner
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4370140Z Hosted Compute Agent
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4370784Z Version: 20260624.560
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4371439Z Commit: 925d229a51159bc391ae97e54a2dd1fe20af789d
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4372257Z Build Date: 2026-06-24T18:26:47Z
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4372957Z Worker ID: {581a4802-8acd-4ef8-a796-4e1a66387d14}
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4373708Z Azure Region: northcentralus
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4374400Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4375880Z ##[group]Operating System
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4376630Z Ubuntu
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4377174Z 24.04.4
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4377707Z LTS
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4378291Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4378859Z ##[group]Runner Image
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4379821Z Image: ubuntu-24.04
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4380433Z Version: 20260705.232.1
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4381563Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260705.232/images/ubuntu/Ubuntu2404-Readme.md
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4383316Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260705.232
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4384270Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4385600Z ##[group]GITHUB_TOKEN Permissions
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4387822Z Contents: read
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4388579Z Metadata: read
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4389168Z Packages: read
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4390005Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4392252Z Secret source: Actions
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4393352Z Prepare workflow directory
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4816063Z Prepare all required actions
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.4873335Z Getting action download info
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.7327127Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.8016495Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:07.8790260Z Download action repository 'actions/upload-artifact@v4' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+Run Ethics Gate (Gate 3–5 PoC)	Set up job	2026-07-13T21:05:08.0938242Z Complete job name: Run Ethics Gate (Gate 3–5 PoC)
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	﻿2026-07-13T21:05:08.1665263Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1674627Z ##[group]Run actions/checkout@v4
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1675325Z with:
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1675812Z   repository: omeruygun/ethics-gate-compas-poc
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1680201Z   token: ***
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1680639Z   ssh-strict: true
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1681075Z   ssh-user: git
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1681512Z   persist-credentials: true
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1681987Z   clean: true
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1682425Z   sparse-checkout-cone-mode: true
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1682932Z   fetch-depth: 1
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1683345Z   fetch-tags: false
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1683782Z   show-progress: true
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1684252Z   lfs: false
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1684664Z   submodules: false
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1685214Z   set-safe-directory: true
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.1685886Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2726225Z Syncing repository: omeruygun/ethics-gate-compas-poc
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2728221Z ##[group]Getting Git version info
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2729094Z Working directory is '/home/runner/work/ethics-gate-compas-poc/ethics-gate-compas-poc'
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2730441Z [command]/usr/bin/git version
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2763530Z git version 2.54.0
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2783689Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2798722Z Temporarily overriding HOME='/home/runner/work/_temp/f48c5ab5-d141-41b0-b725-fb431757e13f' before making global git config changes
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2800481Z Adding repository directory to the temporary git global config as a safe directory
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2805104Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ethics-gate-compas-poc/ethics-gate-compas-poc
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2852609Z Deleting the contents of '/home/runner/work/ethics-gate-compas-poc/ethics-gate-compas-poc'
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2856655Z ##[group]Initializing the repository
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2861654Z [command]/usr/bin/git init /home/runner/work/ethics-gate-compas-poc/ethics-gate-compas-poc
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2937558Z hint: Using 'master' as the name for the initial branch. This default branch name
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2939119Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2940230Z hint: to use in all of your new repositories, which will suppress this warning,
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2940988Z hint: call:
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2941842Z hint:
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2942592Z hint: 	git config --global init.defaultBranch <name>
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2943331Z hint:
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2943912Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2944819Z hint: 'development'. The just-created branch can be renamed via this command:
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2945593Z hint:
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2946006Z hint: 	git branch -m <name>
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2946671Z hint:
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2947575Z hint: Disable this message with "git config set advice.defaultBranchName false"
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2948759Z Initialized empty Git repository in /home/runner/work/ethics-gate-compas-poc/ethics-gate-compas-poc/.git/
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2953444Z [command]/usr/bin/git remote add origin https://github.com/omeruygun/ethics-gate-compas-poc
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2997579Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.2998414Z ##[group]Disabling automatic garbage collection
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.3001991Z [command]/usr/bin/git config --local gc.auto 0
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.3033749Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.3034490Z ##[group]Setting up auth
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.3041218Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.3077798Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.3391040Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.3422824Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.3659676Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.3694040Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.3930216Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.3969257Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.3970687Z ##[group]Fetching the repository
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.3979210Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +247252400b2849b5c29744d1368ef4375154ac3d:refs/remotes/origin/main
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.9662707Z From https://github.com/omeruygun/ethics-gate-compas-poc
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.9664787Z  * [new ref]         247252400b2849b5c29744d1368ef4375154ac3d -> origin/main
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.9700553Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.9702094Z ##[group]Determining the checkout info
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.9703734Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.9710025Z [command]/usr/bin/git sparse-checkout disable
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.9760371Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.9793177Z ##[group]Checking out the ref
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.9798438Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.9970061Z Switched to a new branch 'main'
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.9972520Z branch 'main' set up to track 'origin/main'.
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:08.9977268Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:09.0031857Z [command]/usr/bin/git log -1 --format=%H
+Run Ethics Gate (Gate 3–5 PoC)	Checkout	2026-07-13T21:05:09.0058505Z 247252400b2849b5c29744d1368ef4375154ac3d
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	﻿2026-07-13T21:05:09.0427379Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.0433409Z ##[group]Run actions/setup-python@v5
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.0434537Z with:
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.0435359Z   python-version: 3.11
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.0436333Z   check-latest: false
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.0446492Z   token: ***
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.0447391Z   update-environment: true
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.0448462Z   allow-prereleases: false
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.0449589Z   freethreaded: false
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.0450510Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.1889665Z ##[group]Installed versions
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.1972056Z (node:2282) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.1983385Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.1985927Z Successfully set up CPython (3.11.15)
+Run Ethics Gate (Gate 3–5 PoC)	Set up Python	2026-07-13T21:05:09.1988407Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	﻿2026-07-13T21:05:09.2234804Z ##[group]Run pip install -r requirements.txt
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:09.2236376Z ^[[36;1mpip install -r requirements.txt^[[0m
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:09.2382814Z shell: /usr/bin/bash -e {0}
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:09.2383973Z env:
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:09.2385025Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:09.2386796Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.15/x64/lib/pkgconfig
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:09.2388564Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:09.2390335Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:09.2391941Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:09.2393598Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.15/x64/lib
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:09.2394962Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.0938713Z Collecting pandas>=2.0 (from -r requirements.txt (line 1))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.1432283Z   Downloading pandas-3.0.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.2510342Z Collecting scikit-learn>=1.3 (from -r requirements.txt (line 2))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.2547912Z   Downloading scikit_learn-1.9.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (11 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.2702323Z Collecting fairlearn>=0.10 (from -r requirements.txt (line 3))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.2740977Z   Downloading fairlearn-0.14.0-py3-none-any.whl.metadata (7.3 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.3068195Z Collecting shap>=0.44 (from -r requirements.txt (line 4))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.3106643Z   Downloading shap-0.51.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (25 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.4257512Z Collecting matplotlib>=3.7 (from -r requirements.txt (line 5))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.4297846Z   Downloading matplotlib-3.11.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (80 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.5766234Z Collecting scipy>=1.11 (from -r requirements.txt (line 6))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.5803622Z   Downloading scipy-1.17.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.7538708Z Collecting numpy>=1.24 (from -r requirements.txt (line 7))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.7576649Z   Downloading numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.7721057Z Collecting python-dateutil>=2.8.2 (from pandas>=2.0->-r requirements.txt (line 1))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.7760699Z   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.8013520Z Collecting joblib>=1.4.0 (from scikit-learn>=1.3->-r requirements.txt (line 2))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.8049364Z   Downloading joblib-1.5.3-py3-none-any.whl.metadata (5.5 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.8316013Z Collecting narwhals>=2.0.1 (from scikit-learn>=1.3->-r requirements.txt (line 2))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.8351601Z   Downloading narwhals-2.24.0-py3-none-any.whl.metadata (15 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.8475012Z Collecting threadpoolctl>=3.5.0 (from scikit-learn>=1.3->-r requirements.txt (line 2))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.8510359Z   Downloading threadpoolctl-3.6.0-py3-none-any.whl.metadata (13 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.8863077Z Collecting tqdm>=4.27.0 (from shap>=0.44->-r requirements.txt (line 4))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.8899765Z   Downloading tqdm-4.68.4-py3-none-any.whl.metadata (57 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.9104322Z Collecting packaging>20.9 (from shap>=0.44->-r requirements.txt (line 4))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.9149859Z   Downloading packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.9280950Z Collecting slicer==0.0.8 (from shap>=0.44->-r requirements.txt (line 4))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:10.9323898Z   Downloading slicer-0.0.8-py3-none-any.whl.metadata (4.0 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.0151793Z Collecting numba (from shap>=0.44->-r requirements.txt (line 4))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.0197112Z   Downloading numba-0.66.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.7 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.0716456Z Collecting llvmlite (from shap>=0.44->-r requirements.txt (line 4))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.0753955Z   Downloading llvmlite-0.48.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.0 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.0887501Z Collecting cloudpickle (from shap>=0.44->-r requirements.txt (line 4))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.0922511Z   Downloading cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.1068490Z Collecting typing-extensions (from shap>=0.44->-r requirements.txt (line 4))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.1104160Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.1938697Z Collecting contourpy>=1.0.1 (from matplotlib>=3.7->-r requirements.txt (line 5))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.1975476Z   Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (5.5 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.2090257Z Collecting cycler>=0.10 (from matplotlib>=3.7->-r requirements.txt (line 5))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.2131468Z   Downloading cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.3376673Z Collecting fonttools>=4.22.0 (from matplotlib>=3.7->-r requirements.txt (line 5))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.3415760Z   Downloading fonttools-4.63.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (118 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.4030637Z Collecting kiwisolver>=1.3.1 (from matplotlib>=3.7->-r requirements.txt (line 5))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.4069739Z   Downloading kiwisolver-1.5.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (5.1 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.5514975Z Collecting pillow>=9 (from matplotlib>=3.7->-r requirements.txt (line 5))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.5553157Z   Downloading pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.5762622Z Collecting pyparsing>=3 (from matplotlib>=3.7->-r requirements.txt (line 5))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.5797804Z   Downloading pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.6341677Z Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas>=2.0->-r requirements.txt (line 1))
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.6379141Z   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.6506895Z Downloading pandas-3.0.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (11.3 MB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.6897552Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 316.3 MB/s  0:00:00
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.6938268Z Downloading scikit_learn-1.9.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (9.3 MB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.7212836Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.3/9.3 MB 362.1 MB/s  0:00:00
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.7262908Z Downloading fairlearn-0.14.0-py3-none-any.whl (135 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.7322950Z Downloading shap-0.51.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.1 MB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.7388576Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.1/1.1 MB 185.8 MB/s  0:00:00
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.7425182Z Downloading slicer-0.0.8-py3-none-any.whl (15 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.7482283Z Downloading matplotlib-3.11.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (10.0 MB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.7792146Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.0/10.0 MB 349.5 MB/s  0:00:00
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.7830110Z Downloading scipy-1.17.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (35.3 MB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.8770014Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 35.3/35.3 MB 383.5 MB/s  0:00:00
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.8807688Z Downloading numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.9 MB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.9290415Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.9/16.9 MB 363.7 MB/s  0:00:00
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.9326924Z Downloading contourpy-1.3.3-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (355 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.9390584Z Downloading cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.9445711Z Downloading fonttools-4.63.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (5.1 MB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.9604713Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.1/5.1 MB 363.5 MB/s  0:00:00
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.9639013Z Downloading joblib-1.5.3-py3-none-any.whl (309 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.9711113Z Downloading kiwisolver-1.5.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.4 MB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.9786491Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 223.4 MB/s  0:00:00
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.9825470Z Downloading narwhals-2.24.0-py3-none-any.whl (461 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.9902718Z Downloading packaging-26.2-py3-none-any.whl (100 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:11.9966945Z Downloading pillow-12.3.0-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.9 MB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.0437875Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.9/6.9 MB 155.9 MB/s  0:00:00
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.0475029Z Downloading pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.0533916Z Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.0595363Z Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.0650013Z Downloading threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.0703322Z Downloading tqdm-4.68.4-py3-none-any.whl (676 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.0818984Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 676.6/676.6 kB 54.9 MB/s  0:00:00
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.0884812Z Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.1003565Z Downloading llvmlite-0.48.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (59.9 MB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.2990981Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 59.9/59.9 MB 304.4 MB/s  0:00:00
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.3036389Z Downloading numba-0.66.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.8 MB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.3236194Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.8/3.8 MB 203.8 MB/s  0:00:00
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.3274910Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:12.6214413Z Installing collected packages: typing-extensions, tqdm, threadpoolctl, slicer, six, pyparsing, pillow, packaging, numpy, narwhals, llvmlite, kiwisolver, joblib, fonttools, cycler, cloudpickle, scipy, python-dateutil, numba, contourpy, scikit-learn, pandas, matplotlib, shap, fairlearn
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:32.4066289Z 
+Run Ethics Gate (Gate 3–5 PoC)	Install dependencies	2026-07-13T21:05:32.4083918Z Successfully installed cloudpickle-3.1.2 contourpy-1.3.3 cycler-0.12.1 fairlearn-0.14.0 fonttools-4.63.0 joblib-1.5.3 kiwisolver-1.5.0 llvmlite-0.48.0 matplotlib-3.11.0 narwhals-2.24.0 numba-0.66.0 numpy-2.4.6 packaging-26.2 pandas-3.0.3 pillow-12.3.0 pyparsing-3.3.2 python-dateutil-2.9.0.post0 scikit-learn-1.9.0 scipy-1.17.1 shap-0.51.0 six-1.17.0 slicer-0.0.8 threadpoolctl-3.6.0 tqdm-4.68.4 typing-extensions-4.16.0
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	﻿2026-07-13T21:05:32.5459015Z ##[group]Run set +e
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5459308Z ^[[36;1mset +e^[[0m
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5459779Z ^[[36;1mpython compas_ethics_gate.py^[[0m
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5460074Z ^[[36;1mcode=$?^[[0m
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5460341Z ^[[36;1mecho "exit_code=$code" >> "$GITHUB_OUTPUT"^[[0m
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5460701Z ^[[36;1mif [ -f fairness_results.json ]; then^[[0m
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5461015Z ^[[36;1m  echo "=== fairness_results.json ==="^[[0m
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5461311Z ^[[36;1m  cat fairness_results.json^[[0m
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5461561Z ^[[36;1mfi^[[0m
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5461757Z ^[[36;1mexit $code^[[0m
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5497419Z shell: /usr/bin/bash -e {0}
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5497689Z env:
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5497974Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5498416Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.15/x64/lib/pkgconfig
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5498839Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5499209Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5499862Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5500234Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.15/x64/lib
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:32.5500560Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.0650454Z /opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/shap/explainers/_linear.py:123: FutureWarning: The feature_perturbation option is now deprecated in favor of using the appropriate masker (maskers.Independent, maskers.Partition or maskers.Impute).
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1694199Z   warnings.warn(wmsg, FutureWarning)
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1694660Z === GATE 3: PERFORMANS ===
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1695342Z   n_raw=7214  n_clean=6172
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1695859Z   n_train=4320  n_test=1852
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1696309Z   acc=0.6809  prec=0.6837  rec=0.5563  f1=0.6135
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1696624Z 
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1696757Z === GATE 4: ADALET ===
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1697189Z                   selection_rate  false_positive_rate  true_positive_rate
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1697814Z race_group                                                               
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1698418Z African-American          0.4948               0.2989              0.6654
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1698993Z Caucasian                 0.2372               0.1580              0.3708
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1699818Z Hispanic                  0.2624               0.1481              0.4167
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1700412Z Other                     0.2091               0.1026              0.4688
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1700871Z   DPD=0.2857  EOD=0.2945
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1701752Z   validation={'manual_dpd': 0.2857, 'manual_eod': 0.2946, 'fairlearn_dpd': 0.2857, 'fairlearn_eod': 0.2945, 'dpd_match': True, 'eod_match': True, 'n_test_sum_groups': 1852}
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1702587Z 
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1702711Z === GATE 5 ===
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1703022Z   decision=BLOCKED  threshold=0.1
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1703272Z 
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.1703837Z Artifacts -> /home/runner/work/ethics-gate-compas-poc/ethics-gate-compas-poc/run_artifacts  run_id=20260713T210535Z
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6364026Z === fairness_results.json ===
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6375558Z {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6375913Z   "run_id": "20260713T210535Z",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6376323Z   "model": "LogisticRegression",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6376702Z   "dataset": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6377071Z     "source_file": "compas-scores-two-years.csv",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6377616Z     "source_md5": "9165d40c400bba93a8cffece2b74622b",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6378080Z     "n_raw": 7214,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6378410Z     "n_after_days_filter": 6172,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6378799Z     "n_after_is_recid": 6172,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6379178Z     "n_after_charge_degree": 6172,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6379936Z     "n_clean": 6172,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6380268Z     "filters": [
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6380647Z       "-30 <= days_b_screening_arrest <= 30",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6381095Z       "is_recid != -1",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6381446Z       "c_charge_degree != 'O'",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6382332Z       "score_text notna",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6382692Z       "race: Asian/Native American -> Other"
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6382963Z     ],
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6383465Z     "provenance": "Real ProPublica COMPAS (Angwin et al., 2016); not synthetic"
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6383870Z   },
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6384062Z   "random_seed": 42,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6384285Z   "test_size": 0.3,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6384495Z   "n_train": 4320,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6384695Z   "n_test": 1852,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6384894Z   "features": [
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6385090Z     "age",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6385271Z     "sex_enc",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6385490Z     "juv_fel_count",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6385811Z     "juv_misd_count",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6386112Z     "priors_count",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6386425Z     "charge_enc"
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6386714Z   ],
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6387128Z   "sensitive_feature": "race_group (excluded from model features)",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6387501Z   "performance": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6387725Z     "accuracy": 0.6809,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6387960Z     "precision": 0.6837,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6388193Z     "recall": 0.5563,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6388404Z     "f1_score": 0.6135
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6388607Z   },
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6388797Z   "fairness_metrics": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6389050Z     "demographic_parity_difference": 0.2857,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6389344Z     "equalized_odds_difference": 0.2945
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6389777Z   },
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6389969Z   "metricframe_by_group": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6390208Z     "selection_rate": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6390434Z       "African-American": 0.4948,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6390685Z       "Caucasian": 0.2372,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6390914Z       "Hispanic": 0.2624,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6391137Z       "Other": 0.2091
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6391332Z     },
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6391528Z     "false_positive_rate": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6391774Z       "African-American": 0.2989,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6392023Z       "Caucasian": 0.158,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6392263Z       "Hispanic": 0.1481,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6392485Z       "Other": 0.1026
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6392689Z     },
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6392883Z     "true_positive_rate": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6393123Z       "African-American": 0.6654,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6393372Z       "Caucasian": 0.3708,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6393604Z       "Hispanic": 0.4167,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6393830Z       "Other": 0.4688
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6394044Z     }
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6394224Z   },
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6394409Z   "group_metrics": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6394663Z     "African-American": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6394971Z       "TP": 340,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6395199Z       "FP": 133,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6395386Z       "TN": 312,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6395575Z       "FN": 171,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6395774Z       "FPR": 0.2989,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6395989Z       "TPR": 0.6654,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6396196Z       "selection_rate": 0.4948,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6396433Z       "n": 956
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6396628Z     },
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6396823Z     "Caucasian": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6397030Z       "TP": 89,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6397226Z       "FP": 64,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6397413Z       "TN": 341,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6397603Z       "FN": 151,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6397807Z       "FPR": 0.158,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6398007Z       "TPR": 0.3708,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6398218Z       "selection_rate": 0.2372,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6398443Z       "n": 645
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6398626Z     },
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6398812Z     "Hispanic": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6399015Z       "TP": 25,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6399204Z       "FP": 12,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6399393Z       "TN": 69,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6399793Z       "FN": 35,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6399986Z       "FPR": 0.1481,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6400186Z       "TPR": 0.4167,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6400389Z       "selection_rate": 0.2624,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6400613Z       "n": 141
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6400796Z     },
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6400976Z     "Other": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6401161Z       "TP": 15,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6401534Z       "FP": 8,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6401857Z       "TN": 70,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6402042Z       "FN": 17,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6402237Z       "FPR": 0.1026,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6402434Z       "TPR": 0.4688,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6402644Z       "selection_rate": 0.2091,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6402862Z       "n": 110
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6403047Z     }
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6403230Z   },
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6403417Z   "validation": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6403623Z     "manual_dpd": 0.2857,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6403850Z     "manual_eod": 0.2946,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6404072Z     "fairlearn_dpd": 0.2857,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6404309Z     "fairlearn_eod": 0.2945,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6404538Z     "dpd_match": true,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6404754Z     "eod_match": true,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6404971Z     "n_test_sum_groups": 1852
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6405197Z   },
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6405387Z   "proxy_indicators": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6406047Z     "note": "Olası proxy göstergesi; nedensel sızma kanıtı değildir.",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6406503Z     "age_pointbiserial_r": -0.1756,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6406776Z     "age_p": 2.7020165426719542e-14,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6407044Z     "priors_pointbiserial_r": 0.2485,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6407311Z     "priors_p": 1.8181372094903573e-27,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6407593Z     "age_mannwhitney_p": 1.088443581000402e-14,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6407906Z     "priors_mannwhitney_p": 1.575050074374392e-20,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6408196Z     "age_mean_AA": 32.59,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6408416Z     "age_mean_CAU": 37.8,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6408639Z     "priors_mean_AA": 4.41,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6408874Z     "priors_mean_CAU": 2.06
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6409086Z   },
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6409271Z   "shap_mean_abs": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6409662Z     "age": 0.4368,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6409921Z     "sex_enc": 0.1125,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6410137Z     "juv_fel_count": 0.008,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6410369Z     "juv_misd_count": 0.0068,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6410606Z     "priors_count": 0.5169,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6410842Z     "charge_enc": 0.1386
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6411064Z   },
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6411251Z   "threshold": 0.1,
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6411673Z   "threshold_note": "Deneysel operasyonel eşik; evrensel standart değildir.",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6412085Z   "gate_decision": "BLOCKED",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6412482Z   "reason": "DPD=0.2857 ve/veya EOD=0.2945 eşiği (0.1) aşıyor.",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6412819Z   "artifacts": {
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6413053Z     "figure_fpr_tpr": "figure_fpr_tpr.png",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6413381Z     "figure_proxy": "figure_proxy_distributions.png",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6413714Z     "figure_shap": "figure_shap_importance.png",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6414014Z     "table8_txt": "table8.txt",
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6414261Z     "table9_txt": "table9.txt"
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6414488Z   }
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6414669Z }
+Run Ethics Gate (Gate 3–5 PoC)	Run unified Ethics Gate pipeline	2026-07-13T21:05:36.6424546Z ##[error]Process completed with exit code 1.
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	﻿2026-07-13T21:05:36.6524858Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6526136Z ##[group]Run actions/upload-artifact@v4
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6526423Z with:
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6526630Z   name: ethics-gate-report
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6526953Z   path: fairness_results.json
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	run_artifacts/
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	DATA_PROVENANCE.md
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6527311Z   if-no-files-found: warn
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6527552Z   compression-level: 6
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6527775Z   overwrite: false
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6527998Z   include-hidden-files: false
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6528238Z env:
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6528497Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6528923Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.15/x64/lib/pkgconfig
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6529385Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6530119Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6530490Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6530859Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.15/x64/lib
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.6531180Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.8257861Z (node:2346) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.8259136Z (Use `node --trace-deprecation ...` to show where the warning was created)
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.8333543Z Multiple search paths detected. Calculating the least common ancestor of all paths
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.8336252Z The least common ancestor is /home/runner/work/ethics-gate-compas-poc/ethics-gate-compas-poc. This will be the root directory of the artifact
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.8337346Z With the provided path, there will be 8 files uploaded
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.8342213Z Artifact name is valid!
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:36.8342914Z Root directory input is valid!
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:37.0328882Z Beginning upload of artifact content to blob storage
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:37.0672289Z (node:2346) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:37.2068592Z Uploaded bytes 120356
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:37.2399698Z Finished uploading artifact content to blob storage!
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:37.2400692Z SHA256 digest of uploaded artifact zip is b1e381815f2a7527c6743cb2b28caa066a23268906032d39d5c156d4cdeac12c
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:05:37.2403034Z Finalizing artifact upload
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:06:08.9284978Z Artifact ethics-gate-report.zip successfully finalized. Artifact ID 8292803657
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:06:08.9285879Z Artifact ethics-gate-report has been successfully uploaded! Final size is 120356 bytes. Artifact ID is 8292803657
+Run Ethics Gate (Gate 3–5 PoC)	Upload ethics-gate artifacts	2026-07-13T21:06:08.9293335Z Artifact download URL: https://github.com/omeruygun/ethics-gate-compas-poc/actions/runs/29284962713/artifacts/8292803657
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	﻿2026-07-13T21:06:08.9455047Z ##[group]Run echo "::error title=Ethics Gate FAILED::Önceden tanımlı deneysel adalet eşiği (0.10) aşıldı; dağıtım engellendi."
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9456028Z ^[[36;1mecho "::error title=Ethics Gate FAILED::Önceden tanımlı deneysel adalet eşiği (0.10) aşıldı; dağıtım engellendi."^[[0m
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9456660Z ^[[36;1mecho "::error::İnceleme: fairness_results.json ve run_artifacts/"^[[0m
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9457030Z ^[[36;1mexit 1^[[0m
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9491950Z shell: /usr/bin/bash -e {0}
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9492233Z env:
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9492516Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9492961Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.15/x64/lib/pkgconfig
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9493397Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9493772Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9494144Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.15/x64
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9494651Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.15/x64/lib
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9495227Z ##[endgroup]
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9571421Z ##[error]Önceden tanımlı deneysel adalet eşiği (0.10) aşıldı; dağıtım engellendi.
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9573500Z ##[error]İnceleme: fairness_results.json ve run_artifacts/
+Run Ethics Gate (Gate 3–5 PoC)	Gate 5 — deployment blocked notice	2026-07-13T21:06:08.9575164Z ##[error]Process completed with exit code 1.
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	﻿2026-07-13T21:06:08.9676289Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:08.9677492Z Post job cleanup.
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:09.0579431Z [command]/usr/bin/git version
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:09.0618623Z git version 2.54.0
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:09.0655981Z Temporarily overriding HOME='/home/runner/work/_temp/3ce273a9-6628-430e-9715-02971c1533d3' before making global git config changes
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:09.0657142Z Adding repository directory to the temporary git global config as a safe directory
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:09.0661784Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/ethics-gate-compas-poc/ethics-gate-compas-poc
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:09.0707360Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:09.0745002Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:09.0995576Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:09.1027429Z http.https://github.com/.extraheader
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:09.1039790Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:09.1077568Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:09.1357079Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+Run Ethics Gate (Gate 3–5 PoC)	Post Checkout	2026-07-13T21:06:09.1391660Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+Run Ethics Gate (Gate 3–5 PoC)	Complete job	﻿2026-07-13T21:06:09.1804768Z Cleaning up orphan processes
+Run Ethics Gate (Gate 3–5 PoC)	Complete job	2026-07-13T21:06:09.2129146Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5, actions/upload-artifact@v4. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
